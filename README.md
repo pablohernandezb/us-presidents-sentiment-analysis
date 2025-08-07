@@ -50,7 +50,9 @@ us-presidents-sentiment-analysis/
 ├── speeches-sample.json                 #  Sample of speeches for quick testing or sharing
 ├── 1_download_mc_speeches.py            #  Script to download speeches from Miller Center
 ├── 2_preprocessing_speeches.py          #  Script for cleaning and preprocessing speech text
-├── 4_sentiment_analysis.py              #  Script for basic sentiment analysis 
+├── 3_sentiment_analysis.py              #  Script for basic sentiment analysis
+├── 4_visualize_avg_sentiment_by_party.py              #  Script for visualizing avg sentiment analysis by party 
+├── 4_visualize_avg_sentiment_by_president.py              #  Script for visualizing avg sentiment analysis by president
 ├── 5_advance_sentiment_analysis.py      #  Advanced sentiment and keyword analysis, word clouds
 ├── 6_topic_modeling.py                  #  Topic modeling across all speeches
 ├── 6_topic_modeling_by_president.py     #  Topic modeling grouped by president
@@ -133,21 +135,28 @@ pip freeze > requirements.txt
 
 4. **Sentiment analysis**
    ```sh
-   python 4_sentiment_analysis.py
+   python 3_sentiment_analysis.py
    ```
 
-5. **Run sentiment and keyword analysis:**
+5. **Visualize average sentiment analysis**
+   ```sh
+   4_visualize_avg_sentiment_by_party.py
+   4_visualize_avg_sentiment_by_president.py
+   ```
+
+
+6. **Run sentiment and keyword analysis:**
    ```sh
    python 5_advance_sentiment_analysis.py
    ```
 
-6. **Run topic modeling:**
+7. **Run topic modeling:**
     ```sh
     python 6_topic_modeling.py
     python 6_topic_modeling_by_president.py
     ```
 
-7. **Run rhetorical analysis:**
+8. **Run rhetorical analysis:**
    ```sh
    python 7_rethorical_analysis.py
    ```
