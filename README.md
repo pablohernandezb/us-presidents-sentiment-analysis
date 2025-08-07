@@ -1,6 +1,6 @@
 # US Presidents Sentiment & Rhetorical Analysis
 
-This repository is a sandbox project designed to deepen my skills in machine learning, natural language processing (NLP), and large language models (LLMs) through hands-on research and experimentation. The project analyzes US presidential speeches to uncover sentiment trends, rhetorical patterns, and linguistic features.
+This repository is a sandbox project designed to deepen my skills in machine learning, and natural language processing (NLP)through hands-on research and experimentation. The project analyzes US presidential speeches to uncover sentiment trends, rhetorical patterns, and linguistic features.
 
 ## Research & Learning Objectives
 
@@ -45,28 +45,28 @@ All speech data is sourced from the [Miller Center](https://millercenter.org/the
 ```
 us-presidents-sentiment-analysis/
 │
-├── analyzed_speeches.csv                #  Processed speeches with sentiment and other metrics
-├── speeches.json                        #  Raw or preprocessed speeches data from Miller Center
-├── speeches-sample.json                 #  Sample of speeches for quick testing or sharing
-├── 1_download_mc_speeches.py            #  Script to download speeches from Miller Center
-├── 2_preprocessing_speeches.py          #  Script for cleaning and preprocessing speech text
-├── 3_sentiment_analysis.py              #  Script for basic sentiment analysis
-├── 4_visualize_avg_sentiment_by_party.py              #  Script for visualizing avg sentiment analysis by party 
-├── 4_visualize_avg_sentiment_by_president.py              #  Script for visualizing avg sentiment analysis by president
-├── 5_advance_sentiment_analysis.py      #  Advanced sentiment and keyword analysis, word clouds
-├── 6_topic_modeling.py                  #  Topic modeling across all speeches
-├── 6_topic_modeling_by_president.py     #  Topic modeling grouped by president
-├── 7_rethorical_analysis.py             #  Rhetorical metrics: lexical diversity, readability, n-grams
-├── requirements.txt                     #  Python dependencies for the project
-├── plots/                               #  Folder for generated plots and visualizations (word clouds, charts, etc.)
-└── README.md                            #  Project documentation (this file)
+├── analyzed_speeches.csv                           #  Processed speeches with sentiment and other metrics
+├── speeches.json                                   #  Raw or preprocessed speeches data from Miller Center
+├── speeches-sample.json                            #  Sample of speeches for quick testing or sharing
+├── 1_download_mc_speeches.py                       #  Script to download speeches from Miller Center
+├── 2_preprocessing_speeches.py                     #  Script for cleaning and preprocessing speech text
+├── 3_sentiment_analysis.py                         #  Script for basic sentiment analysis
+├── 4_visualize_avg_sentiment_by_party.py           #  Script for visualizing avg sentiment analysis by party 
+├── 4_visualize_avg_sentiment_by_president.py       #  Script for visualizing avg sentiment analysis by president
+├── 5_advance_sentiment_analysis.py                 #  Advanced sentiment and keyword analysis, word clouds
+├── 6_topic_modeling.py                             #  Topic modeling across all speeches
+├── 6_topic_modeling_by_president.py                #  Topic modeling grouped by president
+├── 7_rethorical_analysis.py                        #  Rhetorical metrics: lexical diversity, readability, n-grams
+├── requirements.txt                                #  Python dependencies for the project
+├── plots/                                          #  Folder for generated plots and visualizations (word clouds, charts, etc.)
+└── README.md                                       #  Project documentation (this file)
 ```
 
-## Example Outputs
+## Results
 
 - **Word Clouds:**  
-  ![Positive Word Cloud](positive_sentiment_wordcloud.png)  
-  ![Negative Word Cloud](negative_sentiment_wordcloud.png)
+  ![Positive Word Cloud](plots/positive_sentiment_wordcloud.png)  
+  ![Negative Word Cloud](plots/negative_sentiment_wordcloud.png)
 
 - **Rhetorical Metrics:**  
   Results saved in `rhetorical_analysis_results.csv` with columns for lexical diversity, readability, and top n-grams.
