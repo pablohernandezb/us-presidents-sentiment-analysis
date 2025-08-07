@@ -64,6 +64,12 @@ us-presidents-sentiment-analysis/
 
 ## Results
 
+- **Average Sentiment Scores by President**
+  ![Average Sentiment Scores by President](plots/average_sentiment_by_president.png)  
+
+- **Topic Distribution by President**
+  ![Topic Distribution by President](plots/heatmap_topic_dist_by_president.png)
+
 - **Word Clouds:**  
   ![Positive Word Cloud](plots/positive_sentiment_wordcloud.png)  
   ![Negative Word Cloud](plots/negative_sentiment_wordcloud.png)
